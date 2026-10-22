@@ -1,5 +1,6 @@
 // This work (SDLblit.cpp, by Cory Bloyd) is free of known copyright restrictions.
 // https://creativecommons.org/publicdomain/zero/1.0/
+//https://gist.github.com/CoryBloyd/6725bb78323bb1157ff8d4175d42d789#file-sdlblit-cpp
 #include <SDL2/SDL.h>
 #include <cmath>
 
