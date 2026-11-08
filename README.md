@@ -11,7 +11,7 @@ A small software rasterizer written in C++ with SDL2. All drawing happens on a C
 
 ### Line Drawing
 
-Line drawing is based on Breheman's line algorithm, using
+Line drawing is based on Bresenham's line algorithm, using
 slope and rounding second axis.
 
 ### Filled Triangles
@@ -20,7 +20,7 @@ Filled triangles uses bounding box and barycentric coords
 to fill triangle; could be done in parrelel but not done
 here since everything is cpu sided.
 
-<!-- TODO: add a screenshot, e.g. ![screenshot](docs/screenshot.png) -->
+![screenshot](Screenshot_20261025_135221.png)
 
 ## Requirements
 
@@ -40,7 +40,3 @@ g++ SDLblit.cpp -o blit $(sdl2-config --cflags --libs)
 ## Credits
 
 The SDL blit scaffold is based on [SDLblit.cpp by Cory Bloyd](https://gist.github.com/CoryBloyd/6725bb78323bb1157ff8d4175d42d789#file-sdlblit-cpp) (CC0).
-
-## License
-
-<!-- TODO: choose a license -->
